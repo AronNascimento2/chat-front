@@ -68,7 +68,7 @@ export const ChatUserBox = () => {
     <>
       {users.map((user, index) => {
         return (
-          <S.Container key={index}>
+          <S.Container key={[index]}>
             <div className="container-info">
               <div className="name">{user.name}</div>
               <div className="date">{user.data}</div>
